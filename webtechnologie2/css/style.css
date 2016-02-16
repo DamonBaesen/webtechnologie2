@@ -1,29 +1,63 @@
-body
-{
-    font-family: Helvetica;  
+body {
+    font-family: Helvetica;
     background-color: #e8f5d9;
 }
 
-img
-{
+img {
     max-width: 40%;
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
 
-h1
-{
+h1 {
     margin-left: auto;
     margin-right: auto;
     width: 80%;
     text-align: center;
 }
 
-h2
-{
+h2 {
     margin-left: auto;
     margin-right: auto;
     width: 90%;
     text-align: center;
+    margin-bottom: -5px;
 }
+
+#linkNav {
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    text-align: center;
+}
+
+#linkNav ul {
+    margin-top: -30px;
+    display: block;
+}
+
+#linkNav li a {
+    color: royalblue;
+    text-decoration: none;
+    font-size: 1.1em;
+    display: block;
+    margin-bottom: 5px;
+}
+
+#linkNav li {
+    color: transparent;
+}
+
+#linkNav li a:hover,
+#linkNav li a:active {
+    color: red;
+}
+
+#fotoHome {
+    margin-top: 20px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
